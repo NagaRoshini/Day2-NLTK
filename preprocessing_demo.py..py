@@ -18,4 +18,4 @@ print("After stopwords removal:", filtered_tokens)
 # Lemmatization
 lemmatizer = WordNetLemmatizer()
 lemmatized_tokens = [lemmatizer.lemmatize(token) for token in filtered_tokens]
-print("After lemmatization:", lemmatized_tokens)pip install tensorflow tensorflow-hub librosapip install torch torchvision pillow
+print("After lemmatization:", lemmatized_tokens)
